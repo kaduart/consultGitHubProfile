@@ -1,0 +1,12 @@
+.btn-primary {
+    padding: 10px 20px;
+    background-color: var(--sgh-color-font-primary);
+    color: var(--sgh-color-font-secondary);
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: left;
+    border: 3px solid var(--sgh-color-font-primary);
+    border-radius: 5px;
+
+}

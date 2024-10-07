@@ -1,0 +1,24 @@
+.sgh-home-section {
+    padding: 20px;
+
+    .sgh-home-title {
+        display: flex;
+    }
+
+    .sgh-home-body {
+        padding: 0 30px 0 85px;
+        color: var(--sgh-color-font-tertiary);
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+
+    }
+
+
+    .sgh-home-btn {
+        padding: 30px 30px 20px 85px;
+    }
+}

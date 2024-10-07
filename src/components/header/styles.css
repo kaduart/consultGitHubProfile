@@ -1,0 +1,18 @@
+header {
+    background: var(--sgh-color-bg-primary);
+    height: 62px;
+    gap: 0px;
+    opacity: 0px;
+
+    .sgh-header-title{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        padding: 20px;
+        color: var(--sgh-color-font-secondary);
+
+    }
+
+}

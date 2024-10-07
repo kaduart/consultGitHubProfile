@@ -1,0 +1,35 @@
+.sgh-search-section {
+    width: 1251px;
+    height: 270px;
+    top: 116px;
+    left: 90px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--sgh-color-bg-tertiary);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 5px;
+
+
+    .sgh-search-field {
+        padding: 20px;
+
+        .sgh-search-ipt {
+            width: 298px;
+            height: 40px;
+            top: 112px;
+            left: 31px;
+            gap: 0px;
+            opacity: 0px;
+            padding: 0 10px;
+        }
+    }
+
+    .sgh-search-btn {
+        padding: 20px;
+    }
+}
+
+.sgh-error {
+    padding: 0 44px;
+}

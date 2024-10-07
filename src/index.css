@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --sgh-color-bg-primary: #1890FF;
+  --sgh-color-bg-secondary: #ffffff;
+  --sgh-color-bg-tertiary: #E6F7FF;
+  --sgh-color-bg-quaternary: #F5F5F5;
+  --sgh-color-bg-quinary: #D9D9D9;
+
+  --sgh-color-font-primary: #1890FF;
+  --sgh-color-font-secondary: #ffffff;
+  --sgh-color-font-tertiary: #7E7E7E;
+
+  --sgh-color-card-bg: #ffffff;
+  --sgh-color-card-border: #d9d9d9;
+
+  --sgh-color-btn-primary: #3483fa;
+  --sgh-color-btn-inverse: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--sgh-color-bg-secondary);
+}
+
+main {
+  padding: 0 20px;
+}
+
+.sgh-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sgh-lbl {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  padding: 5px;
+}
+
+.sgh-link {
+  color: var(--sgh-color-font-primary);
+  font-weight: 600;
+  transition: color 0.2s;
+}
